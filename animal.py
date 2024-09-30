@@ -4,13 +4,14 @@ import time
 import sys
 
 # setup the game by storing animals in a list and their dietry habits in a dictionary
-animal_list = ["dog", "cat", "porcupine", "whale", "rat", "rabbit", "pig"]
+animal_list = ["dog", "cat", "porcupine", "whale", "rat", "rabbit", "pig", "horse"]
 animal_food = {"dog":["beef","chicken","rice"], "cat":["mice","eggs","cereal"],
                "porcupine": ["worms","beetles","ants"] , 
                "whale":["prawns", "fish","seals"], 
                "rat":["corn","fruit","biscuits"],
                "rabbit":["carrots","lettuce","nuts"],
-               "pig":["potatoes","turnips","cabbage"]}
+               "pig":["potatoes","turnips","cabbage"],
+               "horse":["hay", "sugar cubes"]}
 health_bar = 100 # size of heath bar which is printed to console
 
 # start the game by randomly selecting an animal and a health score
