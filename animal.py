@@ -25,16 +25,16 @@ animal_name = input("Give your animal a name : ")
 # keeps asking the user to select a food and adjusts the health score and displays the health bar
 while random_health > 0:
     decoy_animal = random.choice(animal_list)
-    print(f"Your animal is currently fine")
+    print(f"{animal_name} is currently fine")
     mixed_list = [item for pair in zip(animal_food[random_animal], animal_food[decoy_animal]) for item in pair]
-    chosen_food = input(f"What would you like to feed your {animal_name}, choose from {mixed_list}?")
+    chosen_food = input(f"What would you like to feed {animal_name}, choose from {mixed_list}?")
     
     if chosen_food in animal_food[random_animal]:
         random_health += 10
-        print(f"your pet enjoyed that score is now {random_health}")
+        print(f"{animal_name} enjoyed that. Their score is now {random_health}")
     else:
         random_health -= 10
-        print(f"your pet didn't like that {random_health}")
+        print(f"{animal_name} didn't like that. Their score is now {random_health}")
 
 # health bar code
     sys.stdout.write("[%s]" % (" " * health_bar))
@@ -53,4 +53,4 @@ while random_health > 0:
     sys.stdout.write("]\n") # this ends the health bar
     
 # final messgae to game player
-print(f"sorry your {random_animal} needs attention")
+print(f"sorry {animal_name} is dead :( ")
