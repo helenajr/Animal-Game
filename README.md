@@ -9,3 +9,4 @@ Running the animal.py file
 ## Contribute to this game by
 * Suggesting improvements using issues
 * Cloning the repo, making your own branch and fixing the issue, then raising a pull request.
+* If you are not a collaborator you will need to fork the repo before cloning it.
