@@ -12,7 +12,8 @@ animal_food = {"dog":["beef","chicken","rice"], "cat":["mice","eggs","cereal"],
                "rabbit":["carrots","lettuce","nuts"],
                "pig":["potatoes","turnips","cabbage"],
                "horse":["hay", "sugar cubes"],
-               "lion":["deer", "buffalo","zebra"]}
+               "lion":["deer", "buffalo","zebra"],
+               "turkey" : ["nuts", "cornflakes", "woodlice"]}
 health_bar = 100 # size of heath bar which is printed to console
 
 # start the game by randomly selecting an animal and a health score
